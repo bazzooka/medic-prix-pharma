@@ -1,0 +1,11 @@
+.search-container .material-icons {
+	padding: 20px;
+}
+
+.search-container .mdl-textfield {
+	width: calc(100% - 100px);
+}
+
+.resultat-container table {
+	margin: auto;
+}
