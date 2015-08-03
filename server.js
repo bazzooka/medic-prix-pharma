@@ -10,13 +10,21 @@ var pool = mysql.createPool({
 	database : 'actipharm'
 });
 
+pool.on('enqueue', function () {
+  console.log('Waiting for available connection slot');
+});
+
+pool.on('connection', function (connection) {
+  console.log('Pool connection');
+});
+
 /** REQUEST / QUERIES **/
 
 var txRemb = [];
 
 var getMedicamentsBeginWith = function(pattern, callback){
 	// connection.connect();
-
+console.log("Search ", pattern);
 	var requestQuery = "SELECT ";
 	requestQuery += "arti_cip_acl, arti_num, arti_intitule, arti_codeb2, arti_trimestriel, tarif.PV_TTC ";  
 	requestQuery += "FROM p01arti arti ";
@@ -78,6 +86,7 @@ var keepAlive = function(){
 	setInterval(function(){
 		pool.getConnection(function(err, connection) {
 			connection.ping(function (err) {
+				connection.release();
 	  			if (err) {
 	  				console.log("Error in ping");
 	  				return;
@@ -108,9 +117,7 @@ app.get('/promo', function (req, res) {
 
 app.get('/getMedicament/:medic', function(req, res){
 	var medicament = req.params.medic;
-	console.log(medicament);
 	medicament = decodeURIComponent(medicament.replace());
-	console.log(medicament);
 	
 	getMedicamentsBeginWith(medicament, function(state, rows){
 		for(var i = 0, l = rows.length; i < l; i++){
