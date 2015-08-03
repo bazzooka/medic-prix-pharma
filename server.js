@@ -91,7 +91,7 @@ var keepAlive = function(){
 	  				console.log("Error in ping");
 	  				return;
 	  			}
-	  			console.log('Server responded to ping');
+	  			//console.log('Server responded to ping');
 			});
 		});
 	}, 30000);	
