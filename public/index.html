@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>AFFICHAGE PUBLIC DES PRIX</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -21,7 +22,8 @@
   <div class="mdl-layout__drawer">
   	<span class="mdl-layout-title">Menu</span>
 	<nav class="mdl-navigation">
-		<a class="mdl-navigation__link" href="">Recherche</a>
+		<a class="mdl-navigation__link" href="/">PRIX</a>
+		<a class="mdl-navigation__link" href="/promo">PROMO</a>
 	      <!-- <a class="mdl-navigation__link" href="">Link</a>
 	      <a class="mdl-navigation__link" href="">Link</a>
 	      <a class="mdl-navigation__link" href="">Link</a> -->
@@ -39,7 +41,8 @@
 			</div>
     	</div>
 		<div class="resultat-container">
-	    	<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+		<div id="progress-bar" class="mdl-progress mdl-js-progress mdl-progress__indeterminate progress-demo progress-bar"></div>
+	    	<table id="table-data" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
 	    		<thead>
 				    <tr>
 				    	<th class="mdl-data-table__cell--non-numeric">Nom</th>

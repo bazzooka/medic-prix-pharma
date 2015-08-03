@@ -8,4 +8,118 @@
 
 .resultat-container table {
 	margin: auto;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+.progress-bar{
+	width: 73%;
+	margin: auto;
+	margin-bottom: 20px;
+	display: none;
+}
+
+.progress-bar.is-active {
+	display: block;
+}
+
+.slide .fromBottom{
+	text-align: center;
+	background-color: rgb(139, 195, 74);
+	color: rgb(66, 66, 66);
+	padding: 10px 0;
+}
+
+.slide .fromBottom .fullName {
+	font-weight: 900;
+}
+
+.slide .price-container {
+	float: left;
+	background-color: yellow;
+	padding: 60px 20px 20px 20px;
+	text-align: right;
+}
+
+.slide .price-container span {
+	color: red;
+	white-space: nowrap;
+}
+
+.slide .price-container .unite {
+	font-size: 130px;
+	letter-spacing: -5px;
+}
+
+.slide .fromRight {
+	zoom: 0.5;
+}
+
+.slide .vignette{
+	position: absolute;
+}
+
+.vignette.lot2 {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(/assets/vignettes/lot-de-2.png);
+	width: 375px;
+	height: 224px;
+}
+
+.vignette.lot3 {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(/assets/vignettes/lot-de-3.png);
+	width: 375px;
+	height: 224px;
+	position: absolute;
+}
+
+.vignette.offreDuo {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(/assets/vignettes/offreDuo.png);
+	width: 234px;
+	height: 165px;
+}
+
+.vignette.offre2-1 {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(/assets/vignettes/2-1-offert.png);
+	width: 704px;
+	height: 239px;
+}
+
+.vignette.prixCanon {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(/assets/vignettes/prixCanon.png);
+	width: 450px;
+	height: 271px;
+}
+
+.vignette.peauSensible {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(/assets/vignettes/peauSensible.png);
+	width: 473px;
+	height: 69px;
+}
+
+.vignette.formatEco {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(/assets/vignettes/formatEco.png);
+	width: 502px;
+	height: 274px;
+}
+
+.vignette.vuTV {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(/assets/vignettes/vuTV.png);
+	width: 386px;
+	height: 262px;
 }
