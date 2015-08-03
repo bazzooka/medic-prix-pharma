@@ -1,0 +1,124 @@
+{
+	"promos": [
+		{
+			"id": "EvianSpray",
+			"image": "assets/EvianSpray.png",
+			"fullName" : "Evian Spray",
+			"description": "Hydrate, nettoie, raffraîchit votre peau et aide à fixer votre maquillage",
+			"qty": "[150ml]",
+			"vignette": "prixCanon",
+			"prix": {
+				"unit": 2,
+				"cents": 99,
+				"unite": ""
+			}
+		}, {
+			"id": "Listerine",
+			"image": "assets/Listerine1L.png",
+			"fullName" : "Listerine Bain de Bouche",
+			"description": "Bain de bouche usage quotidien",
+			"qty": "[1L]",
+			"vignette": "formatEco",
+			"prix": {
+				"unit": 6,
+				"cents": 49,
+				"unite": ""
+			}
+		}, {
+			"id": "Neutrapharm",
+			"image": "assets/Neutrapharm-1L.png",
+			"fullName" : "Neutrapharm surgras",
+			"description": "Gel surgras dermo-protecteur",
+			"qty": "[250ml]",
+			"vignette": "peauSensible",
+			"prix": {
+				"unit": 2,
+				"cents": 99,
+				"unite": ""
+			}
+		}, {
+			"id": "HuggiesLingettes",
+			"image": "assets/Huggies.png",
+			"fullName" : "Huggies Lingettes",
+			"description": "Lingettes dès la naissance",
+			"qty": "[3x64 lingettes]",
+			"vignette": "lot3",
+			"prix": {
+				"unit": 4,
+				"cents": 99,
+				"unite": ""
+			}
+		}, {
+			"id": "GinkorFort",
+			"image": "assets/P10-Ginkor-Fort.png",
+			"fullName" : "Ginkor Fort &reg;",
+			"description": "Trouble de la circulation veineuse, crise hémorrroïdaire",
+			"qty": "[60 gelules]",
+			"vignette": "vuTV",
+			"prix": {
+				"unit": 9,
+				"cents": 90,
+				"unite": ""
+			}
+		}, {
+			"id": "Piascledine",
+			"image": "assets/Piascledine.png",
+			"fullName" : "Piascledine&reg;",
+			"description": "Traitement symptomatique de l'arthrose, 1 mois, 1 comprimé/jour",
+			"qty": "[30 comprimés]",
+			"prix": {
+				"unit": 14,
+				"cents": 99,
+				"unite": ""
+			}
+		}, {
+			"id": "Topicrem",
+			"image": "assets/P6_Topicrem-lot-2.png",
+			"fullName" : "Topicrème",
+			"description": "L'hydratation pour toute la famille",
+			"qty": "[500ml x2]",
+			"vignette": "lot2",
+			"prix": {
+				"unit": 19,
+				"cents": 90,
+				"unite": ""
+			}
+		}, {
+			"id": "Pampers",
+			"image": "assets/P3-Pampers.png",
+			"fullName" : "Pampers Taille 1",
+			"description": "Absorbe rapidement l'urine et les selles molles",
+			"qty": "[23 couches]",
+			"vignette": "lot3",
+			"prix": {
+				"unit": 9,
+				"cents": 90,
+				"unite": "soit 3.3€ l'unité"
+			}
+		}, {
+			"id": "Zenderm",
+			"image": "assets/Zendermx2.png",
+			"fullName" : "Zenderm",
+			"description": "Bracelet répulsif antimoustique aux huiles essentielles",
+			"qty": "[2 bracelets]",
+			"vignette": "lot2",
+			"prix": {
+				"unit": 19,
+				"cents": 90,
+				"unite": "soit 9.95€ l'unité"
+			}
+		}, {
+			"id": "Moustidose",
+			"image": "assets/Moustidosex2.png",
+			"fullName" : "Lait Moustidose",
+			"description": "Lait répulsif anti-moustiques, spray",
+			"qty": "[125ml x2]",
+			"vignette": "lot2",
+			"prix": {
+				"unit": 9,
+				"cents": 90,
+				"unite": "soit 4.95€ l'unité"
+			}
+		}
+	]
+}
