@@ -17,5 +17,7 @@
   display: inline-block;
   word-wrap: normal;
   -webkit-font-feature-settings: 'liga';
-  -webkit-font-smoothing: antialiased;
+  /*-webkit-font-smoothing: antialiased;*/
+  text-rendering:auto;
+  -webkit-font-smoothing: none;
 }
