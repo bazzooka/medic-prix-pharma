@@ -62,7 +62,7 @@
 .vignette.lot2 {
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-image: url(/assets/vignettes/lot-de-2.png);
+	background-image: url(../assets/vignettes/lot-de-2.png);
 	width: 375px;
 	height: 224px;
 }
@@ -70,7 +70,7 @@
 .vignette.lot3 {
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-image: url(/assets/vignettes/lot-de-3.png);
+	background-image: url(../assets/vignettes/lot-de-3.png);
 	width: 375px;
 	height: 224px;
 	position: absolute;
@@ -79,7 +79,7 @@
 .vignette.offreDuo {
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-image: url(/assets/vignettes/offreDuo.png);
+	background-image: url(../assets/vignettes/offreDuo.png);
 	width: 234px;
 	height: 165px;
 }
@@ -87,7 +87,7 @@
 .vignette.offre2-1 {
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-image: url(/assets/vignettes/2-1-offert.png);
+	background-image: url(../assets/vignettes/2-1-offert.png);
 	width: 704px;
 	height: 239px;
 }
@@ -95,7 +95,7 @@
 .vignette.prixCanon {
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-image: url(/assets/vignettes/prixCanon.png);
+	background-image: url(../assets/vignettes/prixCanon.png);
 	width: 450px;
 	height: 271px;
 }
@@ -103,7 +103,7 @@
 .vignette.peauSensible {
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-image: url(/assets/vignettes/peauSensible.png);
+	background-image: url(../assets/vignettes/peauSensible.png);
 	width: 473px;
 	height: 69px;
 }
@@ -111,7 +111,7 @@
 .vignette.formatEco {
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-image: url(/assets/vignettes/formatEco.png);
+	background-image: url(../assets/vignettes/formatEco.png);
 	width: 502px;
 	height: 274px;
 }
@@ -119,7 +119,7 @@
 .vignette.vuTV {
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-image: url(/assets/vignettes/vuTV.png);
+	background-image: url(../assets/vignettes/vuTV.png);
 	width: 386px;
 	height: 262px;
 }
