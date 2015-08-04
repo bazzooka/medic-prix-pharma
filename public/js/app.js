@@ -1,4 +1,4 @@
-var SERVER_HOST = "http://192.168.15:3002";
+var SERVER_HOST = "http://192.168.1.15:3002";
 
 var throttle = function throttle(fn, threshhold, scope) {
   threshhold || (threshhold = 250);
