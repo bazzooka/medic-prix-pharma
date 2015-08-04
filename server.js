@@ -106,13 +106,13 @@ keepAlive();
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/', function (req, res) {
+/*app.get('/', function (req, res) {
 	res.sendFile(__dirname + "/public/index.html");
 });
 
 app.get('/promo', function (req, res) {
 	res.sendFile(__dirname + "/public/promo.html");
-});	
+});	*/
 
 
 app.get('/getMedicament/:medic', function(req, res){
