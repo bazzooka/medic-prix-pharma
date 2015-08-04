@@ -1,3 +1,5 @@
+var SERVER_HOST = "http://192.168.15:3002";
+
 var windowSize = {
 	width : window.innerWidth,
 	height: window.innerHeight
@@ -6,7 +8,7 @@ var windowSize = {
 var ajaxPromo = new Ajax();
 
 
-ajaxPromo.get('/data/datas.json' ).done(function( response, xhr ) {
+ajaxPromo.get(SERVER_HOST + '/data/datas.json' ).done(function( response, xhr ) {
 	var slideContainer = document.getElementById('slide-container');
 	var frag = document.createDocumentFragment();
 

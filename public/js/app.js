@@ -1,3 +1,5 @@
+var SERVER_HOST = "http://192.168.15:3002";
+
 var throttle = function throttle(fn, threshhold, scope) {
   threshhold || (threshhold = 250);
   var last,
@@ -27,7 +29,7 @@ document.getElementById('medic').addEventListener('keyup', throttle(function(e){
 	if(value.length >= 3){
 		activateProgress();
 		value = value.trimLeft();
-		ajax.get('/getMedicament/' + encodeURIComponent(encodeURIComponent(value)) ).done(function( response, xhr ) {
+		ajax.get(SERVER_HOST + '/getMedicament/' + encodeURIComponent(encodeURIComponent(value)) ).done(function( response, xhr ) {
 		  var tbody = document.getElementsByTagName('tbody')[0];
 		  tbody.innerHTML = "";
 		  for(var i = 0, l = response.length; i < l; i++){
