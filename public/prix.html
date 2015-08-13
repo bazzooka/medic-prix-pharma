@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AFFICHAGE PUBLIC DES PRIX</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="mdl-layout__container">
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  	<header class="mdl-layout__header">
+    	<div class="mdl-layout__header-row">
+    	<div class="mdl-layout-spacer"></div>
+      	<!-- Title -->
+      	<span class="mdl-layout-title">AFFICHAGES PUBLIC DES PRIX</span>
+      	<!-- Add spacer, to align navigation to the right -->
+      	<div class="mdl-layout-spacer"></div>
+      	
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+  	<span class="mdl-layout-title">Menu</span>
+	<nav class="mdl-navigation">
+		<a class="mdl-navigation__link" href="./prix.html">PRIX</a>
+		<a class="mdl-navigation__link" href="./index.html">PROMO</a>
+	      <!-- <a class="mdl-navigation__link" href="">Link</a>
+	      <a class="mdl-navigation__link" href="">Link</a>
+	      <a class="mdl-navigation__link" href="">Link</a> -->
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+  	<div class="page-content">
+    	<div class="demo-grid-ruler mdl-grid search-container">
+    		<div class="mdl-cell mdl-cell--12-col">
+		    	<i class="material-icons">search</i>
+		    	<div class="mdl-textfield mdl-js-textfield">
+				  <input class="mdl-textfield__input" type="text" id="medic" />
+				  <label class="mdl-textfield__label" for="medic">Médicament...</label>
+				</div>
+			</div>
+    	</div>
+		<div class="resultat-container">
+		<div id="progress-bar" class="mdl-progress mdl-js-progress mdl-progress__indeterminate progress-demo progress-bar"></div>
+	    	<table id="table-data" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+	    		<thead>
+				    <tr>
+				    	<th class="mdl-data-table__cell--non-numeric">Nom</th>
+				      	<th>Prix TTC</th>
+				      	<th>Honoraires</th>
+				      	<th>Taux remboursement</th>
+			    	</tr>
+			  	</thead>
+			  	<tbody>
+			  		<!-- <tr>
+						<td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
+						<td>25</td>
+						<td>$2.90</td>
+				    </tr>
+				    <tr>
+						<td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
+						<td>50</td>
+						<td>$1.25</td>
+				    </tr>
+				    <tr>
+				      <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
+				      <td>10</td>
+				      <td>$2.35</td>
+				    </tr> -->
+				  </tbody>
+			</table>
+		</div>
+
+
+    </div>
+  </main>
+</div>
+
+
+<link rel="stylesheet" type="text/css" href="./lib/mdl/mdl.css">
+<script src="./lib/ajax/ajax.js"></script>
+<script src="./lib/mdl/material.min.js"></script>
+<link rel="stylesheet" href="./lib/mdl/font.css">
+<link rel="stylesheet" href="./css/style.css">
+<script src="./js/app.js"></script>
+</body>
+</html>

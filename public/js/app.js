@@ -1,7 +1,7 @@
 var SERVER_HOST = "http://192.168.1.200:3002";
 
 var throttle = function throttle(fn, threshhold, scope) {
-  threshhold || (threshhold = 250);
+  threshhold || (threshhold = 100);
   var last,
       deferTimer;
   return function () {
@@ -48,7 +48,7 @@ document.getElementById('medic').addEventListener('keyup', throttle(function(e){
 		  }
 		});	
 	}
-}, 2000));
+}, 500));
 
 var activateProgress = function(){
 	document.getElementById('progress-bar').classList.add("is-active");
