@@ -10,6 +10,13 @@ document.addEventListener("touchstart", function(e){
 	e.stopPropagation();
 	e.stopImmediatePropagation();
 	return false;
+});
+
+document.addEventListener("touchmove", function(e){
+	e.preventDefault();
+	e.stopPropagation();
+	e.stopImmediatePropagation();
+	return false;
 })
 
 var ajaxPromo = new Ajax();
