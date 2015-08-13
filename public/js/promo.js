@@ -1,4 +1,4 @@
-var SERVER_HOST = "http://192.168.1.15:3002";
+var SERVER_HOST = "http://192.168.1.200:3002";
 
 var windowSize = {
 	width : window.innerWidth,
