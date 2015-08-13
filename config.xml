@@ -44,6 +44,11 @@
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="xhdpi" src="res/icon/icon-96-xhdpi.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-landscape.png" />
+
+    <gap:config-file platform="android" parent="/manifest">
+        <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    </gap:config-file>  
+
     <access origin="*" />
     <plugin name="cordova-plugin-whitelist" version="1" />
     <allow-intent href="http://*/*" />
