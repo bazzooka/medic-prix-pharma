@@ -46,7 +46,8 @@
 			"prix": {
 				"unit": "",
 				"cents": "",
-				"unite": "Voir offre en pharmacie"
+				"unite": "",
+				"text": "Voir offre en pharmacie"
 			}
 		}, {
 			"id": "Pampers",
