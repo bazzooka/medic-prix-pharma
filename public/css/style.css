@@ -76,6 +76,20 @@
 	position: absolute;
 }
 
+.vignette.lot4 {
+	background-image: url(../assets/vignettes/lot-de-4.png);
+	background-size: contain;
+	width: 363px;
+	height: 227px;
+}
+
+.vignette.lot6 {
+	background-image: url(../assets/vignettes/lot-de-6.png);
+	width: 363px;
+	height: 227px;
+	background-size: contain;
+}
+
 .vignette.offreDuo {
 	background-repeat: no-repeat;
 	background-size: contain;

@@ -47,7 +47,7 @@ ajaxPromo.get(SERVER_HOST + '/data/datas.json' ).done(function( response, xhr ) 
 	        slideContent += '<span class="vignette ' + obj.vignette +'"></span>';
 	        slideContent += '</div>';
         }
-        
+
 
         var elt = document.createElement('div');
         elt.innerHTML = slideContent;
@@ -57,7 +57,7 @@ ajaxPromo.get(SERVER_HOST + '/data/datas.json' ).done(function( response, xhr ) 
 
 	resizeSlider();
 	startSlider();
-});	
+});
 
 
 var resizeSlider = function(){
@@ -95,19 +95,17 @@ jssor_slider1_starter = function (containerId) {
     _CaptionTransitions["fromRight"] = [ {$Duration:900,x:-0.6,$Zoom:1,$Easing:{$Left:$JssorEasing$.$EaseInCubic,$Zoom:$JssorEasing$.$EaseInCubic},$Opacity:2}];
 
 
-	var options = { 
+	var options = {
 		$AutoPlay: false,
 		$FillMode: 1,
 		$CaptionSliderOptions: {
 			$Class: $JssorCaptionSlider$,
 			$CaptionTransitions: _CaptionTransitions,
 			$PlayInMode: 1,
-			$PlayOutMode: 3 
+			$PlayOutMode: 3
 		}
 
 
 	};
 	var jssor_slider1 = new $JssorSlider$(containerId, options);
 };
-
-

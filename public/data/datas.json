@@ -1,87 +1,52 @@
 {
 	"promos": [
 		{
-			"id": "EvianSpray",
-			"image": "./assets/EvianSpray.png",
-			"fullName" : "Evian Spray",
-			"description": "Hydrate, nettoie, raffraîchit votre peau et aide à fixer votre maquillage",
-			"qty": "[150ml]",
-			"vignette": "prixCanon",
-			"prix": {
-				"unit": 2,
-				"cents": 99,
-				"unite": ""
-			}
-		}, {
-			"id": "Listerine",
-			"image": "./assets/Listerine1L.png",
-			"fullName" : "Listerine Bain de Bouche",
-			"description": "Bain de bouche usage quotidien",
-			"qty": "[1L]",
-			"vignette": "formatEco",
-			"prix": {
-				"unit": 6,
-				"cents": 49,
-				"unite": ""
-			}
-		}, {
-			"id": "Neutrapharm",
-			"image": "./assets/Neutrapharm-1L.png",
-			"fullName" : "Neutrapharm surgras",
-			"description": "Gel surgras dermo-protecteur",
-			"qty": "[250ml]",
-			"vignette": "peauSensible",
-			"prix": {
-				"unit": 2,
-				"cents": 99,
-				"unite": ""
-			}
-		}, {
-			"id": "HuggiesLingettes",
-			"image": "./assets/Huggies.png",
-			"fullName" : "Huggies Lingettes",
-			"description": "Lingettes dès la naissance",
-			"qty": "[3x64 lingettes]",
-			"vignette": "lot3",
-			"prix": {
-				"unit": 4,
-				"cents": 99,
-				"unite": ""
-			}
-		}, {
-			"id": "GinkorFort",
-			"image": "./assets/P10-Ginkor-Fort.png",
-			"fullName" : "Ginkor Fort &reg;",
-			"description": "Trouble de la circulation veineuse, crise hémorrroïdaire",
-			"qty": "[60 gelules]",
-			"vignette": "vuTV",
+			"id": "Fluocaril",
+			"image": "./assets/Fluocarilx4.png",
+			"fullName" : "Fluocaril&reg; Bi-Fluor 250mg",
+			"description": "Dentrifrice à la menthe pour prévention des caries",
+			"qty": "[125ml x4]",
+			"vignette": "lot4",
 			"prix": {
 				"unit": 9,
-				"cents": 90,
-				"unite": ""
+				"cents": 99,
+				"unite": "soit 2.50€ l'unité"
 			}
 		}, {
-			"id": "Piascledine",
-			"image": "./assets/Piascledine.png",
-			"fullName" : "Piascledine&reg;",
-			"description": "Traitement symptomatique de l'arthrose, 1 mois, 1 comprimé/jour",
-			"qty": "[30 comprimés]",
+			"id": "Hextril",
+			"image": "./assets/Hextril.png",
+			"fullName" : "Hextril",
+			"description": "Traitement des maux de bouche: aphtes et gencives sensibles",
+			"qty": "[200ml]",
+			"vignette": "",
 			"prix": {
-				"unit": 14,
+				"unit": 3,
 				"cents": 99,
 				"unite": ""
 			}
 		}, {
-			"id": "Topicrem",
-			"image": "./assets/P6_Topicrem-lot-2.png",
-			"fullName" : "Topicrème",
-			"description": "L'hydratation pour toute la famille",
-			"qty": "[500ml x2]",
-			"vignette": "lot2",
+			"id": "pouxit",
+			"image": "./assets/pouxit.png",
+			"fullName" : "Pouxit XF",
+			"description": "1 seule application de 15 minutes, sans insecticides",
+			"qty": "[250ml]",
+			"vignette": "",
 			"prix": {
-				"unit": 19,
-				"cents": 90,
+				"unit": 9,
+				"cents": 99,
 				"unite": ""
+			}
+		}, {
+			"id": "keracnyl",
+			"image": "./assets/keracnyl.png",
+			"fullName" : "Keracnyl&reg; Gel Moussant",
+			"description": "Nettoie et purifie en profondeur",
+			"qty": "[400ml]",
+			"vignette": "",
+			"prix": {
+				"unit": "",
+				"cents": "",
+				"unite": "Voir offre en pharmacie"
 			}
 		}, {
 			"id": "Pampers",
@@ -89,35 +54,58 @@
 			"fullName" : "Pampers Taille 1",
 			"description": "Absorbe rapidement l'urine et les selles molles",
 			"qty": "[23 couches]",
-			"vignette": "lot3",
+			"vignette": "",
+			"prix": {
+				"unit": 3,
+				"cents": 49,
+				"unite": ""
+			}
+		}, {
+			"id": "novanuit",
+			"image": "./assets/novanuit.png",
+			"fullName" : "Novanuit&reg; ",
+			"description": "Triple action",
+			"qty": "[30 gelules]",
+			"vignette": "vuTV",
 			"prix": {
 				"unit": 9,
 				"cents": 90,
-				"unite": "soit 3.3€ l'unité"
+				"unite": ""
 			}
 		}, {
-			"id": "Zenderm",
-			"image": "./assets/Zendermx2.png",
-			"fullName" : "Zenderm",
-			"description": "Bracelet répulsif antimoustique aux huiles essentielles",
-			"qty": "[2 bracelets]",
-			"vignette": "lot2",
-			"prix": {
-				"unit": 19,
-				"cents": 90,
-				"unite": "soit 9.95€ l'unité"
-			}
-		}, {
-			"id": "Moustidose",
-			"image": "./assets/Moustidosex2.png",
-			"fullName" : "Lait Moustidose",
-			"description": "Lait répulsif anti-moustiques, spray",
-			"qty": "[125ml x2]",
-			"vignette": "lot2",
+			"id": "ginkor;",
+			"image": "./assets/P10-Ginkor-Fort.png",
+			"fullName" : "Ginkor Fort&reg",
+			"description": "Trouble de la circulation veineuse, crise hémorroïdaire",
+			"qty": "[60 gélules]",
 			"prix": {
 				"unit": 9,
-				"cents": 90,
-				"unite": "soit 4.95€ l'unité"
+				"cents": 99,
+				"unite": ""
+			}
+		}, {
+			"id": "euphytose",
+			"image": "./assets/euphytose.png",
+			"fullName" : "Euphytose&reg; ",
+			"description": "Stress et troubles mineurs du sommeil",
+			"qty": "[120 comprimés]",
+			"vignette": "vuTV",
+			"prix": {
+				"unit": 5,
+				"cents": 99,
+				"unite": ""
+			}
+		}, {
+			"id": "efferalgan",
+			"image": "./assets/efferalganab1g.png",
+			"fullName" : "Efferalgan&reg; Tab 1g",
+			"description": "Douleurs et fièvre",
+			"qty": "[8 comprimés]",
+			"vignette": "",
+			"prix": {
+				"unit": 0,
+				"cents": 99,
+				"unite": ""
 			}
 		}
 	]
