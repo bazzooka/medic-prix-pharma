@@ -104,7 +104,7 @@
 			"qty": "[8 comprimés]",
 			"vignette": "",
 			"prix": {
-				"unit": 0,
+				"unit": "0",
 				"cents": 99,
 				"unite": ""
 			}
