@@ -2,7 +2,7 @@
 	"promos": [
 		{
 			"id": "Fluocaril",
-			"image": "./assets/Fluocarilx4.png",
+			"image": "/assets/Fluocarilx4.png",
 			"fullName" : "Fluocaril&reg; Bi-Fluor 250mg",
 			"description": "Dentrifrice à la menthe pour prévention des caries",
 			"qty": "[125ml x4]",
@@ -14,7 +14,7 @@
 			}
 		}, {
 			"id": "Hextril",
-			"image": "./assets/Hextril.png",
+			"image": "/assets/Hextril.png",
 			"fullName" : "Hextril",
 			"description": "Traitement des maux de bouche: aphtes et gencives sensibles",
 			"qty": "[200ml]",
@@ -26,7 +26,7 @@
 			}
 		}, {
 			"id": "pouxit",
-			"image": "./assets/pouxit.png",
+			"image": "/assets/pouxit.png",
 			"fullName" : "Pouxit XF",
 			"description": "1 seule application de 15 minutes, sans insecticides",
 			"qty": "[250ml]",
@@ -38,7 +38,7 @@
 			}
 		}, {
 			"id": "keracnyl",
-			"image": "./assets/keracnyl.png",
+			"image": "/assets/keracnyl.png",
 			"fullName" : "Keracnyl&reg; Gel Moussant",
 			"description": "Nettoie et purifie en profondeur",
 			"qty": "[400ml]",
@@ -50,7 +50,7 @@
 			}
 		}, {
 			"id": "Pampers",
-			"image": "./assets/P3-Pampers.png",
+			"image": "/assets/P3-Pampers.png",
 			"fullName" : "Pampers Taille 1",
 			"description": "Absorbe rapidement l'urine et les selles molles",
 			"qty": "[23 couches]",
@@ -62,7 +62,7 @@
 			}
 		}, {
 			"id": "novanuit",
-			"image": "./assets/novanuit.png",
+			"image": "/assets/novanuit.png",
 			"fullName" : "Novanuit&reg; ",
 			"description": "Triple action",
 			"qty": "[30 gelules]",
@@ -74,7 +74,7 @@
 			}
 		}, {
 			"id": "ginkor;",
-			"image": "./assets/P10-Ginkor-Fort.png",
+			"image": "/assets/P10-Ginkor-Fort.png",
 			"fullName" : "Ginkor Fort&reg",
 			"description": "Trouble de la circulation veineuse, crise hémorroïdaire",
 			"qty": "[60 gélules]",
@@ -85,7 +85,7 @@
 			}
 		}, {
 			"id": "euphytose",
-			"image": "./assets/euphytose.png",
+			"image": "/assets/euphytose.png",
 			"fullName" : "Euphytose&reg; ",
 			"description": "Stress et troubles mineurs du sommeil",
 			"qty": "[120 comprimés]",
@@ -97,7 +97,7 @@
 			}
 		}, {
 			"id": "efferalgan",
-			"image": "./assets/efferalganab1g.png",
+			"image": "/assets/efferalganab1g.png",
 			"fullName" : "Efferalgan&reg; Tab 1g",
 			"description": "Douleurs et fièvre",
 			"qty": "[8 comprimés]",
