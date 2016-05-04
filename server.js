@@ -1,14 +1,10 @@
+var auth = require('./auth.js');
 var mysql = require('mysql');
 
 var express = require('express');
 var app = express();
 
-var pool = mysql.createPool({
-	host     : '192.168.1.200',
-	user     : 'root',
-	password : '',
-	database : 'actipharm'
-});
+var pool = mysql.createPool(auth);
 
 pool.on('enqueue', function () {
   console.log('Waiting for available connection slot');
@@ -26,7 +22,7 @@ var getMedicamentsBeginWith = function(pattern, callback){
 	// connection.connect();
 console.log("Search ", pattern);
 	var requestQuery = "SELECT ";
-	requestQuery += "arti_cip_acl, arti_num, arti_intitule, arti_codeb2, arti_trimestriel, tarif.PV_TTC ";  
+	requestQuery += "arti_cip_acl, arti_num, arti_intitule, arti_codeb2, arti_trimestriel, tarif.PV_TTC ";
 	requestQuery += "FROM p01arti arti ";
 	requestQuery += "LEFT JOIN tari_pv tarif on arti.arti_num = tarif.ARTI_pv ";
 	requestQuery += 'WHERE arti_intitule LIKE ' + mysql.escape(pattern+'%') + ' ';
@@ -94,7 +90,7 @@ var keepAlive = function(){
 	  			//console.log('Server responded to ping');
 			});
 		});
-	}, 30000);	
+	}, 30000);
 };
 
 
@@ -118,7 +114,7 @@ app.get('/promo', function (req, res) {
 app.get('/getMedicament/:medic', function(req, res){
 	var medicament = req.params.medic;
 	medicament = decodeURIComponent(medicament.replace());
-	
+
 	getMedicamentsBeginWith(medicament, function(state, rows){
 		for(var i = 0, l = rows.length; i < l; i++){
 			// Ajout du taux de remboursement
@@ -127,7 +123,7 @@ app.get('/getMedicament/:medic', function(req, res){
 				var lastCol = "";
 				if(rows[i].arti_trimestriel === 'O'){
 					rows[i].honoraire = 2.21 + "€";
-					lastCol = rows[i].txRemb + "% - " + (rows[i].PV_TTC + 2.21).toFixed(2) + "€";  
+					lastCol = rows[i].txRemb + "% - " + (rows[i].PV_TTC + 2.21).toFixed(2) + "€";
 				} else {
 					rows[i].honoraire = 0.82 + "€";
 					lastCol = rows[i].txRemb + "% - " + (rows[i].PV_TTC + 0.82).toFixed(2) + "€";
@@ -138,7 +134,7 @@ app.get('/getMedicament/:medic', function(req, res){
 			}
 			rows[i].lastCol = lastCol;
 		}
-		
+
 		res.send(rows);
 	});
 	//res.send('Hello World!');
@@ -151,4 +147,3 @@ var server = app.listen(process.argv[2] || 3002, function () {
 
 	console.log('Example app listening at http://%s:%s', host, port);
 });
-
